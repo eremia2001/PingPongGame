@@ -35,9 +35,8 @@ function resizeCanvas()
 function drawPlayer()
 {
 
-    ctx.fillStyle = "red"
+    ctx.fillStyle = "white"
     
-    console.log(c.width)
     
-    ctx.fillRect(0,0, (0.03*c.width),(0.3*c.height))
+    ctx.fillRect(20,((c.height/2)-((0.3*c.height)/2)) ,(0.02*c.width),(0.3*c.height))
 }
